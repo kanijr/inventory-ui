@@ -1,0 +1,54 @@
+.details-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.details-label {
+  margin: 0 0 8px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #64748b;
+}
+
+.details-header h2 {
+  margin: 0;
+  font-size: 30px;
+  color: #111827;
+}
+
+.details-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.details-primary-button,
+.details-secondary-button {
+  padding: 11px 16px;
+  border-radius: 12px;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.details-primary-button {
+  background: #2563eb;
+}
+
+.details-secondary-button {
+  background: #64748b;
+}
+
+.details-primary-button:hover,
+.details-secondary-button:hover {
+  filter: brightness(1.05);
+}

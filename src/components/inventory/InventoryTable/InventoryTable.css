@@ -1,0 +1,91 @@
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 16px;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.inventory-table th {
+  font-size: 14px;
+  color: #475569;
+  background: #f8fafc;
+}
+
+.inventory-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.cell-name {
+  font-weight: 700;
+  color: #111827;
+}
+
+.cell-description {
+  max-width: 300px;
+  color: #475569;
+}
+
+.table-photo,
+.table-photo-placeholder {
+  width: 90px;
+  height: 70px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-photo {
+  object-fit: cover;
+  background: #f1f5f9;
+}
+
+.table-photo-placeholder {
+  background: #f1f5f9;
+  color: #64748b;
+  font-size: 12px;
+  text-align: center;
+  padding: 6px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.action-button {
+  padding: 9px 14px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.view-button {
+  background: #0f766e;
+}
+
+.edit-button {
+  background: #7c3aed;
+}
+
+.delete-button {
+  background: #dc2626;
+}
+
+.action-button:hover {
+  filter: brightness(1.05);
+}
