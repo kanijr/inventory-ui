@@ -2,9 +2,10 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, Route, useNavigate } from "react-router-dom";
 import { deleteInventory } from "../../services/inventoryApi";
 import { useInventory } from "../../store/InventoryContext";
-import "./AdminInventory.css";
 import InventoryTable from "../../components/inventory/InventoryTable/InventoryTable";
 import ConfirmDeleteModal from "../../components/inventory/ConfirmDeleteModal/ConfirmDeleteModal";
+import "./AdminInventory.css";
+import "../../styles/statusBox.css";
 
 function AdminInventory() {
   const navigate = useNavigate();
@@ -51,7 +52,7 @@ function AdminInventory() {
     <section className="admin-page">
       <div className="admin-page-header">
         <div>
-          <p className="section-label">Інвентар</p>
+          {/* <p className="section-label">Інвентар</p> */}
           <h2>Список інвентарю</h2>
         </div>
 

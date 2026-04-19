@@ -12,14 +12,6 @@
   flex-wrap: wrap;
 }
 
-.section-label {
-  margin: 0 0 8px;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #64748b;
-}
-
 .admin-page-header h2 {
   margin: 0;
   font-size: 28px;
@@ -48,22 +40,4 @@
 
 .primary-button:hover {
   background: #1d4ed8;
-}
-
-.status-box {
-  padding: 18px;
-  border-radius: 18px;
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  color: #334155;
-}
-
-.error-box {
-  color: #b91c1c;
-  border-color: #fecaca;
-  background: #fff1f2;
-}
-
-.empty-box {
-  color: #475569;
 }
