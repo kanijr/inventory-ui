@@ -49,19 +49,11 @@ textarea {
   padding: 28px 20px 12px;
 }
 
-.topbar-label {
-  margin: 0 0 8px;
-  font-size: 13px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #64748b;
-}
-
 .topbar h1 {
-  margin: 0;
-  font-size: 34px;
-  line-height: 1.1;
-  color: #111827;
+  font-size: 14px;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .page-container {

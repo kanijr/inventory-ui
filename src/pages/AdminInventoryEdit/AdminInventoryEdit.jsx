@@ -143,7 +143,6 @@ function AdminInventoryEdit() {
     <section className="edit-page">
       <div className="edit-header">
         <div>
-          <p className="edit-label">Редагування інвентарю</p>
           <h2>Редагувати позицію</h2>
         </div>
 

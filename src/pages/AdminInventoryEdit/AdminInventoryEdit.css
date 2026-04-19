@@ -12,14 +12,6 @@
   flex-wrap: wrap;
 }
 
-.edit-label {
-  margin: 0 0 8px;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #64748b;
-}
-
 .edit-header h2 {
   margin: 0;
   font-size: 28px;

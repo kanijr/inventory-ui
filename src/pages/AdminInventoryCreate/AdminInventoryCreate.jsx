@@ -85,7 +85,6 @@ function AdminInventoryCreate() {
     <section className="create-page">
       <div className="create-header">
         <div>
-          <p className="create-label">Створення інвентарю</p>
           <h2>Додати нову позицію</h2>
         </div>
 
